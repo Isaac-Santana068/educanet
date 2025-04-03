@@ -7,7 +7,7 @@ Páginas principais
 
 2. Cursos:
 
-3. Perfil (em desenvolvimento):
+3. Perfil :
    
 
 
