@@ -3,16 +3,24 @@ Educanet é um projeto web voltado para plataforma de cursos sobre o mundo da te
 
 Estrutura do Projeto
 Páginas principais
+
 1. Home (Index):
+    -Navegação (Perfil, Cursos)
+    -Sobre Nós
+    -Cursos
+    -Rodapé
 
 2. Cursos:
+   1. Preparação para Vestibulares e Concursos
+   2. Tecnologia e Programação
+   3. Idiomas e Comunicação
 
-3. Perfil (em desenvolvimento):
+3. Perfil:
    
 
 
 Estilização
-As cores principais escolhidas para o design do site incluem tons de azul, castanho e preto, com uma paleta de cores serenas ou frias. Ainda estamos em fase de pesquisa e testes para definir uma identidade visual que combine com o objetivo do site.
+As cores principais escolhidas para o design do site incluem tons de azul, com uma paleta de cores serenas ou frias.
 Estado do Projeto
 - [ ] Desenvolvimento das páginas em andamento.
 - [ ] Estrutura da página Home concluída.
@@ -39,10 +47,6 @@ Este projeto utiliza as seguintes cores principais em sua interface:
 | Azul Escuro    | `#4179FA`   |
 | Azul Claro Vivo| `#41B3FA`   |
 | Azul Vivo      | `#219CF9`   |
-
-
-### Como Utilizar as Cores
-
 
 ### Observações
 
