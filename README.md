@@ -11,6 +11,8 @@ Páginas principais
     -Rodapé
 
 2. Cursos:
+   -Haverá 3 paginas separadas para cada, e terão seus respectivos cursos para que o usuario clique
+
    1. Preparação para Vestibulares e Concursos
    2. Tecnologia e Programação
    3. Idiomas e Comunicação
@@ -19,16 +21,22 @@ Páginas principais
    
 
 
-Estilização
+## Estilização
 As cores principais escolhidas para o design do site incluem tons de azul, com uma paleta de cores serenas ou frias.
-Estado do Projeto
+
+## Estado do Projeto
 - [ ] Desenvolvimento das páginas em andamento.
 - [ ] Estrutura da página Home concluída.
 - [ ] Estrutura da categoria Cursos concluída (incluindo seus 3 artigos).
+- [ ] Estrutura da pagina Perfil concluída.
+- [ ] Estrutura da pagina Quiz concluida.
 
 - Finalização do estilo e ajustes responsivos.
      - [ ] index.html
      - [ ] cursos.html
+         - [ ] vestibular.html
+         - [ ] tecnologia.html
+         - [ ] idiomas.html
      - [ ] perfil.html
      - [ ] quizFinal.html
 - [ ] Hospedagemm do projeto
