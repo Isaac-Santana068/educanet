@@ -3,28 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educanet | Preparação para Vestibulares e Concursos</title>
+    <title>Document</title>
 </head>
 <body>
-    <head>
-        <!-- Links -->
-        <h1>EducaNet</h1>
-            <nav>
+    
+    <h1>EducaNet</h1>
+        <nav>
             <a href="#">Perfil</a>
             <a href="cursos.html">Cursos</a>
+            <a href="cadastro.html">Cadastro</a>
         </nav>
-    </head>
-    <h2>Preparação Para Vestibulares e Concursos</h2>
-    <section id="materias">
-        <div id="matematica">Matemática</div>
-        <img src="images/cursos/matematica.png" alt="">
-        <p>Video</p>
-        <div id="portugues">Portugês</div>
-        <img src="images/cursos/portugues.png" alt="">
-        <p>Video</p>
+<hr>
+    <section class="login">
+        <span id="TituloMain">Cadastro</span>
+        <div><input type="text" name="nome" placeholder="Nome" id="nome"></div>
+
+        <div>
+            <input type="date" name="Data" id="data">
+                
+        </div>
+        
+        <div class="input-container">
+            <input type="email" name="email" id="email" placeholder="E-mail">
+        </div>
+
+        <div class="input-container">
+            <input type="password" name="senha" id="senha" placeholder="Senha(*6)" maxlength="6" required>
+        </div>
+        <div  class="input-container">
+            <a href="cursos.html"><button type="button">Entrar</button></a>
+        </div>
     </section>
-
-
     <hr>
     <footer>
         <h3>EducaNet - Transformando sua educação digital.</h3>
@@ -42,6 +51,5 @@
         </ul>
         <p>Política de Privacidade | Termos de Serviço</p>
     </footer>
-
 </body>
 </html>
