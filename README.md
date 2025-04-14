@@ -13,11 +13,15 @@ Páginas principais
 2. Cursos:
    -Haverá 3 paginas separadas para cada, e terão seus respectivos cursos para que o usuario clique
 
+<<<<<<< HEAD
    1. Preparação para Vestibulares e Concursos
    2. Tecnologia e Programação
    3. Idiomas e Comunicação
 
 3. Perfil:
+=======
+3. Perfil :
+>>>>>>> e48ddfe62e288f62b5b85f44de165c5335177fd9
    
 
 
