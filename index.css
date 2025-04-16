@@ -1,0 +1,45 @@
+:root{
+    --azul_claro: #94D3FA;
+    --azul_escuro: #4179FA;
+    --azul_claro_vivo:#41B3FA;
+    --azul_vivo: #219CF9;
+}
+body{
+    background-color: var(--azul_claro);
+
+}
+main{
+    margin:auto;
+    max-width: 1024px;
+    padding:15px;
+    border-radius:20px;
+    background-color: #ffff;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav > #links{
+    display: flex;
+    gap:15px;
+}
+div#informacoes{
+    border: 1px solid #b9b9b9 ;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Cursos */
+section{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+div#cursos{
+    display: flex;
+    gap: 15px;
+}
