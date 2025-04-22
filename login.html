@@ -1,50 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EducaNet - Login</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <head>
-        <!-- Links -->
-        <h1>EducaNet</h1>
-            <nav>
-            <a href="#">Perfil</a>
-            <a href="cursos.html">Cursos</a>
-            <a href="cadastro.html">Cadastro</a>
-        </nav>
-    </head>
-    <hr>
-    <section class="login">
-        <span id="TituloMain">Login</span>
+  <div class="container">
+    <!-- Cabeçalho com navegação -->
+    <nav>
+      <img src="images/logo.png" alt="Logo EducaNet" id="logo">
+      <div id="links">
+        <a href="login.html">Login</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="perfil.html">Perfil</a>
+      </div>
+    </nav>
+
+    <!-- Formulário de Login -->
+    <section id="informacoes">
+      <h2 style="text-align:center;">Login</h2>
+      <form action="cursos.html" method="get" style="max-width: 400px; margin: auto;">
         <div class="input-container">
-            <input type="email" name="email" id="email" placeholder="E-mail">
+          <input type="email" name="email" id="email" placeholder="E-mail" required>
         </div>
-
         <div class="input-container">
-            <input type="password" name="senha" id="senha" placeholder="Senha">
+          <input type="password" name="senha" id="senha" placeholder="Senha" required>
         </div>
-
-        <a href="cursos.html"><button type="button">Entrar</button></a>
-
+        <div style="text-align: center;">
+          <button type="submit" style="
+              padding: 10px 20px;
+              background-color: var(--azul_vivo);
+              border: none;
+              color: white;
+              font-weight: bold;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: background-color 0.3s ease;
+          ">Entrar</button>
+        </div>
+      </form>
     </section>
-    <hr>
-    <footer>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="footer-content">
+      <div class="info-box">           
         <h3>EducaNet - Transformando sua educação digital.</h3>
         <p>&copy; 2025 EducaNet. Todos os direitos reservados.</p>
-        <p>Sigan-nos nas redes sociais:</p>
-        <ul>
+        <div class="redes_sociais">
+          <p>Sigan-nos nas redes sociais:</p>
+          <ul>
             <li>Facebook</li>
             <li>Instagram</li>
             <li>LinkedIn</li>
-        </ul>
-        <p>Contato:</p>
-        <ul>
+          </ul>
+        </div>
+        <div class="contatos">
+          <p>Contato:</p>
+          <ul>
             <li><strong>Email:</strong> contato@educanet.com.br</li>
             <li><strong>Telefone:</strong> (88) 4002-8922</li>
-        </ul>
-        <p>Política de Privacidade | Termos de Serviço</p>
-    </footer>
+          </ul>
+        </div>
+      </div>
+      <p>Política de Privacidade | Termos de Serviço</p>
+    </div>
+  </footer>
 </body>
 </html>

@@ -13,21 +13,30 @@
 *{
     box-sizing: border-box;
 }
-body{
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
     background-color: var(--azul_claro);
     padding: 0;
     margin: 0;
-    height: 100%;
+    min-height: 100vh; /* isso garante que o body cubra toda a altura da tela */
+    display: flex;
+    flex-direction: column;
 }
-.container{
-    margin:0 auto;
-    max-width: 1024px;
-    padding:15px;
-    background-color: #ffff;
-    font-family: 'Roboto',sans-serif;
-    
-    
+
+.container {
+    margin: 0 auto;
+    min-width: 1024px;
+    padding: 15px;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    flex: 1; /* isso faz a container crescer e empurrar o footer pra baixo se precisar */
 }
+
 
 nav{
     display: flex;
@@ -42,11 +51,6 @@ nav > #links{
 a{
     text-decoration: none;
     color: inherit;
-}
-div#informacoes{
-    border: 1px solid #b9b9b9 ;
-    border-radius: 10px;
-    padding: 10px;
 }
 
 /* Cursos */
@@ -85,6 +89,7 @@ footer {
     margin: auto;
     padding: 15px;
     font-family: 'Roboto', sans-serif;
+    height: auto;
 }
 
 .info-box {
