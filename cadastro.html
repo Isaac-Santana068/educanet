@@ -4,52 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
-    
-    <a href="index.html"><img src="images/logo.png" alt="" id="logo"></a>
-        <nav>
-            <a href="#">Perfil</a>
-            <a href="cursos.html">Cursos</a>
-            <a href="cadastro.html">Cadastro</a>
-        </nav>
-<hr>
-    <section class="login">
-        <span id="TituloMain">Cadastro</span>
-        <div><input type="text" name="nome" placeholder="Nome" id="nome"></div>
+    <div class="conteiner">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt="" id="logo"></a>
+                <div id="links">
+                        <a href="#">Perfil</a>
+                        <a href="cursos.html">Cursos</a>
+                        <a href="cadastro.html">Cadastro</a>
+                </div>
+            </nav>
+            <hr>
+            <section class="cadastro">
+                <span style="text-align:center;"><h2>Cadastro</h2></span>
+                <div class="input-container">
+                    <input type="text" name="nome" placeholder="Nome" id="nome"></div>
 
-        <div>
-            <input type="date" name="Data" id="data">
+                <div class="input-container">
+                    <input type="date" name="Data" id="data">   
+                </div>
                 
-        </div>
-        
-        <div class="input-container">
-            <input type="email" name="email" id="email" placeholder="E-mail">
-        </div>
+                <div class="input-container">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </div>
 
-        <div class="input-container">
-            <input type="password" name="senha" id="senha" placeholder="Senha(*6)" maxlength="6" required>
-        </div>
-        <div  class="input-container">
-            <a href="cursos.html"><button type="button">Entrar</button></a>
-        </div>
-    </section>
+                <div class="input-container">
+                    <input type="password" name="senha" id="senha" placeholder="Senha(*6)" maxlength="6" required>
+                </div>
+                <div style="text-align: center;">
+                        <button type="submit">Entrar</button>
+                </div>
+            </section>
+    </div>
     <hr>
     <footer>
-        <h3>EducaNet - Transformando sua educação digital.</h3>
-        <p>&copy; 2025 EducaNet. Todos os direitos reservados.</p>
-        <p>Sigan-nos nas redes sociais:</p>
-        <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>LinkedIn</li>
-        </ul>
-        <p>Contato:</p>
-        <ul>
-            <li><strong>Email:</strong> contato@educanet.com.br</li>
-            <li><strong>Telefone:</strong> (88) 4002-8922</li>
-        </ul>
+        <div class="footer-content">
+            <div class="info-box">
+                <h3>EducaNet - Transformando sua educação digital.</h3>
+                <p>&copy; 2025 EducaNet. Todos os direitos reservados.</p>
+                <div class="redes_sociais">
+                    <p>Sigan-nos nas redes sociais:</p>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>LinkedIn</li>
+                    </ul>
+                </div>
+                <div class="contatos">
+                    <p>Contato:</p>
+                    <ul>
+                        <li><strong>Email:</strong> contato@educanet.com.br</li>
+                        <li><strong>Telefone:</strong> (88) 4002-8922</li>
+                    </ul>
+                </div>
+            </div>
         <p>Política de Privacidade | Termos de Serviço</p>
+    </div>
     </footer>
 </body>
 </html>

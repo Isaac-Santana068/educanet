@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/static/Roboto-Light.ttf);
+    font-size: normal;
+    font-style: normal;
+}
+:root {
+    --azul_claro: #94D3FA;
+    --azul_escuro: #4179FA;
+    --azul_claro_vivo: #41B3FA;
+    --azul_vivo: #219CF9;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: var(--azul_claro);
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    
+}
+.conteiner {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+/* Cabeçalho / Navegação */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > #links {
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cadastro{
+    max-width: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.input-container input {
+    width: 200%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    right:75px;
+}
+button {
+    padding: 10px 20px;
+    background-color: var(--azul_vivo);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* Rodapé */
+footer {
+    background-color: var(--azul_claro_vivo);
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-content {
+    max-width: 1024px;
+    margin: auto;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* quebras de linha para telas menores */
+    gap: 10px;
+}
+
+.info-box h3, .info-box p {
+    width: 100%;
+    
+}
+
+.redes_sociais, .contatos {
+    flex: 1; /* divide o espaço igualmente */
+    min-width: 200px;
+}
+
+.redes_sociais ul, .contatos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.redes_sociais li, .contatos li {
+    padding: 5px 0;
+        
+}
